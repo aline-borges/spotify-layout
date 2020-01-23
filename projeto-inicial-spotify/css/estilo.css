@@ -5,18 +5,19 @@
         font-size: 1em;
         padding: 15px;
     }
+
+    .btn-roxo, .btn-branco {
+        margin: 5px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px){ 
+@media (min-width: 576px) and (max-width: 767.9px){ 
     h1 {
         font-size: 3em;
     }
     .btn-custom {
         margin: 10px 15px;
-    }
-    .btn-roxo {
-        margin: 10px;
     }
 }
 
@@ -114,6 +115,7 @@ nav.navbar-transparente {
 
  .btn-roxo {
      background: #7c25f8;
+     margin: 5px;
  }
 
  .btn-roxo:hover {
@@ -155,6 +157,10 @@ nav.navbar-transparente {
     color: #ffffff;
 }
 
+#logo-footer {
+    margin: 0 100px 0 0;
+}
+
 .albuns {
     padding: 10px 0;
 }
@@ -193,7 +199,7 @@ footer ul {
     list-style: none;
 }
 
-footer ul li {
+#redes-sociais {
     float: right;
     margin: 0 5px;
 }
